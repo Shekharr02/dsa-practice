@@ -4,7 +4,7 @@ package recursion;
 //Platform: GeeksforGeeks 
 //Problem Link: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
 //Difficulty: Easy
-//Time Complexity: O(n)
+//Time Complexity: O(2^n)
 //Space Complexity: O(n)
 
 public class Fibonnacci {
