@@ -1,17 +1,17 @@
 package recursion;
 
 //Problem: Generate Parentheses
-//Platform: GeeksforGeeks 
-//Problem Link: https://www.geeksforgeeks.org/problems/power-set4302/1
+//Platform: Leetcode
+//Problem Link: https://leetcode.com/problems/generate-parentheses/description/
 //Difficulty: Medium
-//Time Complexity: O(n*2^n)
-//Space Complexity: O(n*2^n)
+//Time Complexity: O(2^n)
+//Space Complexity: O(2^n)
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenerateParntheses {
+public class GenerateParentheses {
 	
 	public static void generate(int l, int r, String ans, int n, List<String> list){
         if(r == n){
