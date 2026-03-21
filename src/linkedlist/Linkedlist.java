@@ -12,10 +12,17 @@ public class Linkedlist {
 	ListNode tail;
 	void add(int val) {
 		ListNode temp =  new ListNode(val);
-		if(head == null) head = tail = temp;
+		if(tail == null) head = tail = temp;
 		else {
-			temp.next = head;
-			head = temp;
+			tail.next = temp;
+			tail = temp;
+		}
+	}
+	void display() {
+		ListNode temp = head;
+		while(temp!=null) {
+			System.out.print(temp.val+" ");
+			temp = temp.next;
 		}
 	}
 }
