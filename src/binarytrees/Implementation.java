@@ -31,7 +31,7 @@ public class Implementation {
         if(val == sum-val) return true;
         else return false;
     }
-	private static int max(Node root) {
+	public static int max(Node root) {
 		if(root == null) return Integer.MIN_VALUE;
 		return Math.max(root.val, Math.max(max(root.left), max(root.right)));
 	}
