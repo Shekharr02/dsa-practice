@@ -17,6 +17,7 @@ public class UnionOf2SortedArrays {
         ArrayList<Integer> list = new ArrayList<>();
         int i = 0;
         int j = 0;
+        list.removeAll(list);
         while(i<a.length && j<b.length){
             if(a[i]<=b[j]){
                 if(list.size()==0 || list.get(list.size()-1)!=a[i]){
