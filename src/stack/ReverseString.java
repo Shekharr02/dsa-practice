@@ -1,5 +1,12 @@
 package stack;
 
+//Problem: Reverse Using Stack
+//Platform: GeeksforGeeks 
+//Problem Link: https://www.geeksforgeeks.org/problems/reverse-a-string-using-stack/1
+//Difficulty: Easy
+//Time Complexity: O(n)
+//Space Complexity: O(n)
+
 import java.util.Stack;
 
 public class ReverseString {
